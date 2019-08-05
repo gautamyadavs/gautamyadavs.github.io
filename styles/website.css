@@ -1,5 +1,6 @@
 body {
     letter-spacing: normal;
+    font-family: "Raleway Regular"
 }
 
 .book.font-family-1 {
@@ -109,4 +110,14 @@ body {
   .column {
     width: 100%;
   }
+}
+
+.xl-headline {
+  font-size: 38px;
+}
+
+h2.xl-headline {
+  font-family: "Raleway Bold", sans-serif;
+  line-height: 1.4 !important;
+  font-size: 48px !important;
 }
