@@ -857,6 +857,13 @@ progress::-moz-progress-bar {
         width: 50%;
     }
 
+    /*Project Images*/
+    .ui-short {
+        display: block;
+        margin: 30px auto 0px auto;
+        width: 50%;
+    }
+
     .project-img-long {
         width: 100%;
     }
