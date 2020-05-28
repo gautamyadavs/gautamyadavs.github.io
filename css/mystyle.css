@@ -1,3 +1,5 @@
+@import url("hover.css");
+
 * {
     font-family: 'Rubik', sans-serif;
 }
@@ -10,13 +12,37 @@ a, nav li, .logo {
 
 /*DIVs*/
 
-body{
-    background-color: #ffffff;
-    -webkit-font-smoothing:
-	antialiased;
-	text-rendering:
-	optimizeLegibility;
+.topbar {
+    position: fixed;
+    top: 0;
+    right: -5px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
 }
+
+.scroll-line {
+    height: 10px;
+    margin-bottom: 0px;
+    background: #F15A95;
+    width: 0%;
+}
+
+.scroll-line-bottom {
+    height: 10px;
+    margin-bottom: 0px;
+    background: #F15A95;
+    width: 0%;
+}
+
+.scroll-line-vertical {
+    width: 10px;
+    margin-left: 0px;
+    background: #F15A95;
+    height: 0%;
+}
+
 
 #works{
     background-color: #ffffff;
@@ -438,10 +464,10 @@ progress::-moz-progress-bar {
         display: block;
     }
     #me {
-        width: 358.39px;
-        top: 140px;
+      height: 300px;
+      top: 280px;
         /* left: 341.906px; */
-       left: 42%;
+       left: 72%;
     }
 
     #data {
@@ -479,17 +505,17 @@ progress::-moz-progress-bar {
 
 
 /*Layouts for tablet to desktop 1024 - 1400*/
-@media (min-width: 1024px) and (max-width:1500px) {
+@media (min-width: 1300px) and (max-width:1500px) {
     #home-space {
         height: 498px;
         display: block;
     }
 
     #me {
-        width: 358.39px;
-        top: 140px;
+        height: 300px;
+        top: 280px;
         /* left: 241.906px; */
-       left: 32%;
+       left: 79%;
     }
 
     #data {
@@ -526,7 +552,7 @@ progress::-moz-progress-bar {
 }
 
 
-@media (max-width: 1023px){
+@media (max-width: 1299px){
     .illustration {
         display: none;
     }
@@ -799,8 +825,8 @@ progress::-moz-progress-bar {
 
     /*images in non-mobile*/
     .logo-img {
-        width: 22px;
-        height: 23px;
+        width: 27px;
+        height: 28px;
     }
 
     #profile-pic {
@@ -888,7 +914,7 @@ progress::-moz-progress-bar {
     }
 
     #my-pic {
-        width: 80%;
+        width: 50%;
     }
 }
 
@@ -1070,7 +1096,7 @@ progress::-moz-progress-bar {
     }
 
     #my-pic {
-        width: 85%;
+        width: 100%;
     }
 }
 
@@ -1479,7 +1505,6 @@ ul {
         -ms-transform: rotateZ(2.5deg);
         transform: rotateZ(2.5deg);
 }
-
 
 
 
