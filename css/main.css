@@ -390,3 +390,9 @@ h1 svg .arrow {
 .hvr-overline-from-left:active:before {
     right: 0;
 }
+
+@media (min-width: 500px) {
+  .oneline {
+      white-space: nowrap;
+  }
+}
