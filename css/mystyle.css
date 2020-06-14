@@ -554,12 +554,17 @@ progress::-moz-progress-bar {
     .illustration {
         display: none;
     }
+}
 
+@media (max-width: 1023px){
     #home-space {
         display: none;
     }
-}
 
+    #mobile-space {
+        display: block;
+    }
+}
 
 /*Layout for tablet or small desktop*/
 @media (min-width: 480px) and (max-width:1023px) {
@@ -689,6 +694,10 @@ progress::-moz-progress-bar {
     .mainsidebar {
       padding-left: 60px;
       padding-right: 50px;
+    }
+
+    #mobile-space {
+        display: none;
     }
 }
 
