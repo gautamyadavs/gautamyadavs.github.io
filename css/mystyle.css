@@ -15,7 +15,7 @@ a, nav li, .logo {
     top: 0;
     right: -5px;
     left: 0;
-    z-index: 1;
+    z-index: 100;
     width: 100%;
     background: rgba(0, 0, 0, 0);
 }
