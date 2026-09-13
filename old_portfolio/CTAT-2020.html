@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cognitive Tutor Authoring Tools Web App</title>
+
+  <!--Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!--Jquery-->
+  <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+  <!--Google icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Google fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,400i,500,700" rel="stylesheet">
+
+  <link rel='shortcut icon' href='../assets/favicon.ico' type='image/x-icon' />
+  <link rel="stylesheet" href="../css/mystyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <nav class="nav-down">
+    <a href="https://gautamyadavs.github.io/" class="logo">
+      <img class="logo-img" src="../assets/Logo.png" alt="Logo">
+    </a>
+    <ul>
+      <li class="dropdown"><a class='menu dropdown-toggle' data-toggle="dropdown" href="#">Portfolio<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="projects/equation.html">-1-&nbsp Algebra Equation Solving Tutor</a></li>
+          <li><a href="projects/CTAT.html">-2-&nbsp Cognitive Tutor Authoring Tools Web App</a></li>
+          <li><a target="_blank" href="https://drive.google.com/open?id=1LpHCG5zuDTGcccMLNMtKCSfQ9IduI5mc">-3-&nbsp i). Scratch Curriculum</a></li>
+          <li><a target="_blank" href="https://drive.google.com/open?id=1yNnAJ1lPRhQmG-PHIA1sQ-vki_buPpbj">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp ii). Getting Started with Unit Test Cases</a></li>
+          <li><a target="_blank" href="https://www.youtube.com/watch?v=quHqanLz7IQ&t=5s">-4-&nbsp AVL-Tree Intelligent Tutoring System</a></li><br>
+          <li><a target="_blank" href="https://drive.google.com/open?id=1rRO0QbiRim5yspoVQPG-WLoBU-XFumdL">-5-&nbsp IntelliStudy&nbsp ></a></li>
+          <li><a target="_blank" href="old_portfolio/index.html">-6-&nbsp Other Works and Experience</a></li>
+        </ul>
+      </li>
+      <li><a class='menu' href="../projects/about-me.html">About Me</a></li>
+      <li><a class='menu' href="https://drive.google.com/open?id=1w9BESC0runMRR3b7XC8cEypQSAN2M3T6" target="_blank">Resume</a></li>
+    </ul>
+  </nav>
+
+  <div class="sidebar project-sidebar">
+    <div class="project-sum hidden">
+      <h5>Cognitive Tutor Authoring Tools Web App</h5>
+      <!--            <h4>Interaction Design, Mobile Privacy, Information Architecture</h4>-->
+      <div id="tags">
+      </div>
+      <!--          <a class='details hidden' id='back-home' href="../index.html">< &nbspBack to Home</a>-->
+    </div>
+
+  </div>
+
+
+  <div id="works">
+    <div class='project project-details'>
+      <div class="space30px"></div>
+      <div class="space15px"></div>
+      <h3 class="project-number">- 2 -</h3>
+      <h1>Cognitive Tutor Authoring Tools Web App</h1>
+
+      <h4>August 2019 - Now<br>
+        Partially Shipped, Work-In-Progress<br>
+      </h4>
+
+      <div class="space5px"></div>
+      <span class="label">Intelligent Tutoring Systems</span>
+      <span class="label">UI/UX Design</span>
+      <span class="label">Web Application</span>
+      <span class="label">Full Stack Development</span>
+      <div class="space15px"></div><br>
+
+      <h3 id='s1' class='section'>BACKGROUND</h3>
+      <p><a href="http://ctat.pact.cs.cmu.edu" target="_blank">CTAT</a> lets authors build rich learn-by-doing activities through Example tracing tutors which make authoring accessible to a wider range of audience (non programmers and teachers).
+
+        <br><br>
+        This project is done solely by me with the aim to make a web application with a redesigned interface and API's to make the rapid devlopment of cognitive models and tutors more user-friendly for non programmers. As the only person working on
+        this ambitious project (advised by <a href="https://www.hcii.cmu.edu/people/vincent-aleven" target="_blank">Professor Vincent Aleven</a>), my role is to reimagine the UX and UI for the interface, try out the low fidelity wireframes with some
+        users and then implement the desired functionality in JavaScript.
+      </p>
+
+      <!--                Check out the <a href="https://invis.io/NAAIVRZYD">current prototype</a>.-->
+
+      <!--                <p>[preview of the current iteration - animation]</p>-->
+      <div class=space30px></div>
+
+      <div class="project-img-div-long">
+        <img class="project-img-long" src="../assets/CTAT/Overview.gif" alt="Overview">
+      </div>
+      <h4>Current Progress of the project.</h4>
+
+      <!-- <div class="space15px"></div>
+            <h3 id='s2' class='section'>GETTING STARTED</h3>
+            <h2>With better privacy protection comes greater design challenge</h2>
+            <p>In current Android OS, apps tell you what permissions they are using (e.g. location, camera), but they don't tell you</p>
+            <ul class="text-list">
+                <li><b>Why they are using these permissions</b> (e.g. for advertising)</li>
+                <li><b>Who they are sending their data to </b>(e.g. to third-party libraries like AdMob)</li>
+            </ul>
+            <p>In this project, we are building a future in which users can know all those information.
+            </p>
+
+            <div class="project-img-div-med">
+                    <img class="project-img-med" src="../assets/CTAT/data-model.png" alt="Data Model">
+            </div>
+            <h4>Our project shows user what the permissions are used for and who are the data being sent to</h4>
+            <br>
+
+            <p>This is the new data model that DARPA and CMU will be proposing to Android: all Android developers need to specify the purpose of each privacy data use; on top of that, we can now parse out what third-party libraries are using what privacy data.<br><br>
+            Engineers have done the ground work. But now, here come the design challenges:<p>
+                <ul class="text-list">
+                    <li><b>How can we transfer all these data onto a ~2x4 inch mobile screen?</b></li>
+                    <li><b>How can we make sure privacy settings are easy to understand and manage?</b></li>
+                    <li><b>How can we best protect users' mobile privacy under this new paradigm?</b></li>
+                </ul> -->
+
+
+      <div class="space15px"></div>
+      <h3 id='s2' class='section'>LEARNING FROM USERS</h3>
+      <h2>Users don't even know what to look, filter or search for</h2>
+      <p>From having initial interviews with users my prototypes with users, I learned that <b>powerful functionality is useless unless users actually understand the software (CTAT) and have a clear mental model of the data structure</b>.
+      </p>
+      <div class="project-img-div-med">
+        <img class="project-img-med" src="../assets/CTAT/quotes-filter.png" alt="Users don't know what to look for">
+      </div>
+      <h4>Users stop using the software when they feel too overwhelmed about where to go and how to do something.</h4>
+      <br>
+
+
+      <p>While the current software is powerful for developing intelligent tutoring software (e.g. tutors can be developed in any domain having multiple solution paths without coding), people without access to CMU resources (even programmers) either
+        give up because <b>the interactions with graph are counter intuitive</b> or are not able to effectively utilize the available features because there are <b>too many pop windows to keep track of.</b></p>
+      <br>
+
+      <h2>People don't have time to follow the entire process</h2>
+      <p>Another interesting finding from user interviews and tests is that people don't want to develop tutors but find it a very long process. During the interviews, they often cited lack of motivation to actually start from scratch and follow it
+        to the end.</p>
+
+      <div class="project-img-div-med">
+        <img class="project-img-med" src="../assets/CTAT/quotes-care.png" alt="Users don't care that much">
+      </div>
+      <h4>Users even if they understand CTAT, feels the time taken for development is too much.</h4>
+      <br>
+
+      <p>This means:</p>
+      <ul class="text-list">
+        <li><b>We need to make the process faster.</b><br>This means that we can make a website for the CTAT software so that the process is linear and faster.
+          <div class="project-img-div-med">
+            <img class="project-img-med" src="../assets/CTAT/Workflow.png" style="width: 70%;" alt="Data Model">
+          </div>
+        </li>
+        <li><b>We need to resdesign the interface so that we have less windows.</b><br> Make a single window with docker so that users can see all the available features to them and make their own personalized configuration in which development is
+          easy.</li>
+        <li><b>The interactions of the graph are counter intuitive.</b></li>
+        <ul class="text-list">
+          <li>Redefine the graph using a new API where the interactions and visuals are more intuitive and smooth.</li>
+          <li>Write the API's for different interactions like click on state such that it does not reload the interface.</li>
+        </ul>
+      </ul>
+
+      <div class="space15px"></div><br>
+      <h3 id='s3' class='section'>FAIL FAST, ITERATE FAST</h3>
+      <p>Through an interactive design process, I was quickly moving between paper and digital <b>prototyping, testing </b>prototypes with users, and <b>co-creating</b> with and getting feedback from my advisor. From each iteration, I learned
+        something valuable. Some helped me make small usability improvements, some helped me make major changes in my design direction.
+      </p>
+      <div class="project-img-div-med">
+        <img class="project-img-med" src="../assets/CTAT/Prototype.png" alt="Initial exploration">
+      </div>
+      <h4>A low fidelity prototype in Figma.</h4>
+      <!-- <h2>Initial iterations focused on flexible filtering</h2>
+            <p>I began my early ideation based on the following scenarios:</p>
+            <ul class='text-list'>
+                <li>Which apps of mine use location data? (view by permission)</li>
+                <li>Which apps of mine use my data for advertising? (view by purpose)</li>
+                <li>What permission does this app request for and why?</li>
+                <li>What are the unusual behaviors of my apps and what actions do I need to take?</li>
+            </ul> -->
+
+      <p>My initial prototypes explored ways to efficiently develop a tutor knowing what features are available for the users. With research, <b>I experimented with all different ways of organizing the data, from spatial contiguity, to docking.</b>
+      </p>
+
+      <div class="project-img-div-med">
+        <img class="project-img-med" src="../assets/CTAT/CTAT_Design_Prototype.png" alt="Initial exploration">
+      </div>
+      <h4>A high fidelity prototype in Figma.</h4>
+      <br>
+
+
+
+
+      <div class="space15px"></div>
+      <h3 id='s4' class='section'>DESIGN DECISIONS</h3>
+      <p>Some of the final design decisions I made with professor Vincent (to be updated, work still in progress).</p>
+      <!-- <p><b>We can only expect behavioral change after emotional and cognitive change.</b> After all, the goal is to help users best protect their mobile privacy.</p>
+
+                <br>
+                <h2>Onboarding tutorial helped users learn about data privacy and build up the mental model</h2>
+                <p><b>Action:</b> I created an onboarding tutorial to educate users of their data privacy, introducing the concept of permissions, purposes, and third-party libraries.<br>
+                <b>Result:</b> Users were able to have a much more clear mental model when they go into settings. </p>
+
+                <div class="project-img-div-long">
+                    <img class="project-img-long" src="../assets/CTAT/tutorials.png" alt="Onboarding tutorial">
+                </div>
+                <h4>Onboarding tutorial explains permissions, purposes, and third-party libraries</h4>
+
+                <br>
+                <h2>A more exploratory design lead to less confused and more engaged users</h2>
+                <p><b>Action:</b> Instead of just giving users category titles of privacy data, I decided to show more detailed examples of apps and types of privacy information upfront, to help users explore possibilities.<br>
+                <b>Result:</b> Users expressed fewer confusions, became more engaged, and showed more interest in managing their data privacy.</p>
+                <br>
+                <br>
+                <div><video class="project-vid-long" autoplay loop><source src="../assets/CTAT/exploratory-home.m4v" type="video/mp4"</video></div>
+
+                <h4>Giving more detailed examples of privacy categories incentivises users to explore more.</h4>
+
+                <br>
+                <h2>Applying crowdsourced recommended settings made only a button away</h2>
+                <p><b>Action:</b> While users can still micro-manage every single privacy setting, I also made the "Apply Recommended Settings" a prominent call-to-action. The user can preview the recommended settings before deciding whether to apply. <br>
+                <b>Result:</b> Users, "Whew, this is so much easier! I trust Android's judgment."</p>
+                <br>
+
+                <div><video class="project-vid-small" autoplay loop><source src="../assets/CTAT/recommend2.mov" type="video/mp4"</video></div>
+                <h4>Giving more detailed examples of privacy categories incentivises users to explore more.</h4>
+
+                <br>
+                <h2>Privacy data broken down into bite-sized bits</h2>
+                <p><b>Action:</b> Showing all the privacy data at one time turned out to be too overwhelming for normal users. Showing the data in bits and pieces helps reduce the mental strain the privacy settings impose on users. <br>
+                <b>Result:</b> Users are less overwhelmed. The privacy settings are now more digestible. </p>
+                <div><video class="project-vid-small" autoplay loop><source src="../assets/CTAT/bits.mov" type="video/mp4"</video></div>
+                <h4>Progressive disclosure (hiding secondary information and layering) creates and hierarchy and makes the information volume not as overwhelming.</h4>
+
+                <br>
+
+                <p>I'm continuing to work on this project in the spring semester. There are a lot more things to be explored, such as designing effective install-time UI, making the prototype more high-fidelity, and evaluating the effective of the current iteration with more users, etc. </p>
+                <div class="project-img-div-long">
+                    <img class="project-img-long" src="../assets/CTAT/sitemap.png" alt="Sitemap">
+                </div>
+                <h4>Sitemap of the latest iteration</h4> -->
+      <br>
+
+
+
+
+      <div class="space15px"></div>
+      <h3 id='s5' class='section'>DEVELOPMENT</h3>
+      <p>The web app is developed in HTML, CSS, JavaScript, jQuery, Cytoscape, and Golden Layout.</p>
+      <div class="project-img-div-med">
+        <img class="project-img-med" style="width: 80%;" src="../assets/CTAT/Development.png" alt="Initial exploration">
+      </div>
+      <p>If you are interested in this project and want to take a closer look at the code, you can go through this <a href="https://github.com/CMUCTAT/CTATWebApp" target="_blank">github repository</a> that has all the code I wrote. Feel free to reach
+        out with any questions!</p>
+
+
+      <div class="project-img-div-med">
+        <img class="project-img-med" src="../assets/CTAT/CTAT.gif" alt="Sitemap">
+      </div>
+      <h4>GIF of the latest iteration</h4>
+
+      <br><br>
+
+
+      <div class="jump">
+        <a class='details previous' href="equation.html" data-toggle="tooltip" title="-1- Algebra Equation Solving Tutor">
+          < &nbspPrevious Project</a>
+            <a class='details next' target="_blank" href="https://drive.google.com/open?id=1LpHCG5zuDTGcccMLNMtKCSfQ9IduI5mc" data-toggle="tooltip" title="-3- Scratch Curriculum">Next Project&nbsp ></a>
+      </div>
+
+    </div>
+
+    <!--        <div id='bottom-space'></div>-->
+    <!-- <footer>© designed and coded by Gautam Yadav</footer> -->
+  </div>
+
+
+
+  <!--JS-->
+  <script src="../js/myscript.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <!--Google Analytics-->
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-91244637-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+</body>
+
+</html>

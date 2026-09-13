@@ -1,0 +1,74 @@
+<svg aria-labelledby="anatomy-title anatomy-desc" role="img" style="width: 100%; height: auto; display: block;" viewBox="20 0 1020 790" xmlns="http://www.w3.org/2000/svg">
+<title id="anatomy-title">Anatomy of a skill</title>
+<desc id="anatomy-desc">Diagram of a SKILL.md file showing four labeled regions on the right side: NAME and DESCRIPTION in the frontmatter (top), INSTRUCTIONS and RESOURCES in the body (bottom). Each label has a leader line pointing to its location in the file.</desc>
+<defs>
+<style>.anat-hotspot{fill:rgba(232,180,100,.05);stroke:rgba(232,180,100,.55);stroke-width:1.25;stroke-dasharray:4 3}</style>
+<marker id="anat-dot" markerHeight="6" markerWidth="6" refX="3" refY="3" viewBox="0 0 6 6">
+<circle cx="3" cy="3" fill="#0D0D0D" r="2.2"></circle>
+</marker>
+</defs>
+
+<rect fill="#0D0D0D" height="28" rx="4" width="120" x="40" y="14"></rect>
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="14" letter-spacing="0.5" x="56" y="34">SKILL.md</text>
+
+<rect fill="#0D0D0D" height="720" rx="6" stroke="rgba(255,255,255,0.08)" stroke-width="1" width="600" x="40" y="42"></rect>
+<rect fill="#0D0D0D" height="720" width="600" x="40" y="42"></rect>
+
+<rect fill="rgba(255,255,255,0.025)" height="286" width="600" x="40" y="42"></rect>
+<line stroke="rgba(255,255,255,0.10)" stroke-dasharray="3 3" stroke-width="1" x1="40" x2="640" y1="328" y2="328"></line>
+
+<text fill="#DDA47A" font-family="JetBrains Mono, monospace" font-size="18" x="62" y="80">---</text>
+<text fill="#E8B96B" font-family="JetBrains Mono, monospace" font-size="18" x="62" y="113">name:</text>
+<text fill="#DDA47A" font-family="JetBrains Mono, monospace" font-size="18" x="132" y="113">meeting-notes-summarizer</text>
+<text fill="#E8B96B" font-family="JetBrains Mono, monospace" font-size="18" x="62" y="149">description:</text>
+<text fill="#DDA47A" font-family="JetBrains Mono, monospace" font-size="18" x="198" y="149">Turn raw meeting</text>
+<text fill="#DDA47A" font-family="JetBrains Mono, monospace" font-size="18" x="62" y="176">  transcripts or notes into a structured</text>
+<text fill="#DDA47A" font-family="JetBrains Mono, monospace" font-size="18" x="62" y="203">  summary with decisions, owners, and</text>
+<text fill="#DDA47A" font-family="JetBrains Mono, monospace" font-size="18" x="62" y="230">  dates. Use when the user pastes</text>
+<text fill="#DDA47A" font-family="JetBrains Mono, monospace" font-size="18" x="62" y="257">  meeting notes or asks to recap a call</text>
+<text fill="#DDA47A" font-family="JetBrains Mono, monospace" font-size="18" x="62" y="284">  or summarize a meeting.</text>
+<text fill="#DDA47A" font-family="JetBrains Mono, monospace" font-size="18" x="62" y="316">---</text>
+
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="18" x="62" y="372"># Meeting notes summarizer</text>
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="18" opacity="0.75" x="62" y="408">Produce a tight, scannable recap</text>
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="18" opacity="0.75" x="62" y="433">of a meeting…</text>
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="18" x="62" y="490">## How to produce the summary</text>
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="18" opacity="0.75" x="62" y="526">1. Read the entire input first…</text>
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="18" opacity="0.75" x="62" y="552">2. Identify participants…</text>
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="18" opacity="0.75" x="62" y="578">3. Extract three sections, using</text>
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="18" opacity="0.75" x="62" y="604">   the template at</text>
+<text fill="#DDA47A" font-family="JetBrains Mono, monospace" font-size="18" x="92" y="630">references/template.md</text>
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="18" x="62" y="680">## Output rules</text>
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="18" opacity="0.75" x="62" y="712">- Keep it under 200 words.</text>
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="18" opacity="0.75" x="62" y="738">- Preserve names, dates, numbers.</text>
+<text fill="#E8E2D2" font-family="JetBrains Mono, monospace" font-size="18" opacity="0.75" x="62" y="758">- Flag uncertainty with "Possibly:".</text>
+
+<g class="anat-label" data-region="name">
+<line marker-start="url(#anat-dot)" stroke="#0D0D0D" stroke-width="1.5" x1="640" x2="680" y1="113" y2="113"></line>
+<text fill="#0D0D0D" font-family="Inter, sans-serif" font-size="28" font-weight="700" letter-spacing="0.04em" x="690" y="121">① NAME</text>
+<text fill="#0D0D0D" font-family="Inter, sans-serif" font-size="16" font-style="italic" opacity="0.65" x="690" y="143">lowercase, hyphenated identifier</text>
+</g>
+<g class="anat-label" data-region="description">
+<line marker-start="url(#anat-dot)" stroke="#0D0D0D" stroke-width="1.5" x1="640" x2="680" y1="220" y2="220"></line>
+<text fill="#0D0D0D" font-family="Inter, sans-serif" font-size="28" font-weight="700" letter-spacing="0.04em" x="690" y="228">② DESCRIPTION</text>
+<text fill="#0D0D0D" font-family="Inter, sans-serif" font-size="16" font-style="italic" opacity="0.65" x="690" y="250">what + when, with trigger phrases</text>
+</g>
+<g class="anat-label" data-region="instructions">
+<line marker-start="url(#anat-dot)" stroke="#0D0D0D" stroke-width="1.5" x1="640" x2="680" y1="536" y2="536"></line>
+<text fill="#0D0D0D" font-family="Inter, sans-serif" font-size="28" font-weight="700" letter-spacing="0.04em" x="690" y="544">③ INSTRUCTIONS</text>
+<text fill="#0D0D0D" font-family="Inter, sans-serif" font-size="16" font-style="italic" opacity="0.65" x="690" y="566">the procedure the agent follows</text>
+</g>
+<g class="anat-label" data-region="resources">
+<line marker-start="url(#anat-dot)" stroke="#0D0D0D" stroke-width="1.5" x1="640" x2="680" y1="630" y2="630"></line>
+<text fill="#0D0D0D" font-family="Inter, sans-serif" font-size="28" font-weight="700" letter-spacing="0.04em" x="690" y="638">④ RESOURCES</text>
+<text fill="#0D0D0D" font-family="Inter, sans-serif" font-size="16" font-style="italic" opacity="0.65" x="690" y="660">files the body cites</text>
+</g>
+
+<rect aria-label="Possible name location" class="anat-hotspot" data-region="name" height="36" width="600" x="40" y="92"></rect>
+<rect aria-label="Possible description location" class="anat-hotspot" data-region="description" height="176" width="600" x="40" y="132"></rect>
+<rect aria-label="Possible instructions location" class="anat-hotspot" data-region="instructions" height="434" width="600" x="40" y="328"></rect>
+<rect aria-label="Possible resources location" class="anat-hotspot" data-region="resources" height="36" width="556" x="80" y="610"></rect>
+
+<text fill="#DDA47A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2" opacity="0.7" text-anchor="end" x="628" y="62">FRONTMATTER</text>
+<text fill="#DDA47A" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1.2" opacity="0.7" text-anchor="end" x="628" y="350">BODY</text>
+</svg>
